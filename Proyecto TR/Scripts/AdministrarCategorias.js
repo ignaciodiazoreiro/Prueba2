@@ -2,7 +2,7 @@
     var containerPadre = document.getElementById(nombreCatActual);
     var containerHijo = document.getElementById("lista" + nombreCatActual);
     if (containerPadre.checked) {
-        if (containerHijo.innerHTML == "") {
+        if (containerHijo.innerHTML == "")  {
             html = "";
             $.ajax({
                 url: '/Items/ObtenerCategoriasHijo',
